@@ -1,7 +1,18 @@
-﻿cout << "\n[5] - Палец руки" << endl;
-int variant;
-cin >> variant;
-
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "rus");
+	setlocale(LC_ALL, "ukrainian");
+	cout << "\n [+] Программа лабораторных" << endl;
+	cout << "\n[*] Введите номер задания" << endl;
+	cout << "\n[1] - кОчалка" << endl;
+	cout << "\n[2] - расписание недели" << endl;
+	cout << "\n[3] - Навигатор." << endl;
+	cout << "\n[4] - Таблица умножения" << endl;
+	cout << "\n[5] - Палец руки" << endl;
+    int variant;
+	cin >> variant;
 
 int age = 0;
 int maxAge = 0;
